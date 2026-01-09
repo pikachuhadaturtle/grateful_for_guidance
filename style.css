@@ -1,0 +1,91 @@
+body {
+  background: #f5f6f8;
+  font-family: "Georgia", "Times New Roman", serif;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.paper {
+  background: white;
+  max-width: 850px;
+  margin: auto;
+  padding: 60px 70px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.journal-header {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.authors {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.affiliation {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.abstract {
+  border: 1px solid #ddd;
+  padding: 20px 25px;
+  margin-bottom: 35px;
+}
+
+.abstract h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.figure {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.figure img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+ul {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
+
+.ack-names {
+  margin-top: 15px;
+  font-style: italic;
+}
