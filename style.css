@@ -1,91 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
-  background: #f5f6f8;
-  font-family: "Georgia", "Times New Roman", serif;
   margin: 0;
-  padding: 40px 0;
+  min-height: 100vh;
+
+  /* Background image + gradient overlay */
+  background:
+    linear-gradient(
+      rgba(253, 226, 228, 0.85),
+      rgba(231, 198, 255, 0.85)
+    ),
+    url("images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.paper {
-  background: white;
-  max-width: 850px;
-  margin: auto;
-  padding: 60px 70px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
 
-.journal-header {
-  font-size: 14px;
-  color: #777;
+.container {
+  background: #ffffffdd;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 420px;
   text-align: center;
-  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
+h1 {
+  margin-bottom: 5px;
+  color: #5a189a;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #7b2cbf;
   margin-bottom: 20px;
 }
 
-.authors {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 5px;
+.card {
+  background: #fef6ff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
-.affiliation {
-  text-align: center;
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 40px;
+.icons button {
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #e0aaff;
+  transition: transform 0.2s ease;
 }
 
-.abstract {
-  border: 1px solid #ddd;
-  padding: 20px 25px;
-  margin-bottom: 35px;
+.icons button:hover {
+  transform: scale(1.15);
 }
 
-.abstract h2 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-top: 40px;
-}
-
-.figure {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.figure img {
-  max-width: 100%;
-  border-radius: 6px;
-}
-
-.caption {
-  font-size: 14px;
-  color: #555;
-  margin-top: 8px;
-}
-
-ul {
-  margin-left: 20px;
-  line-height: 1.6;
-}
-
-.footer {
-  margin-top: 60px;
-  font-size: 14px;
-  color: #666;
-  text-align: center;
-  font-style: italic;
-}
-
-.ack-names {
+#message {
   margin-top: 15px;
-  font-style: italic;
+  font-weight: 500;
+  color: #3c096c;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #6c757d;
 }
