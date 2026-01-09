@@ -19,9 +19,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 40px 15px;
+
 }
 
 
@@ -32,6 +34,7 @@ body {
   max-width: 420px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(6px);
 }
 
 h1 {
@@ -77,10 +80,17 @@ h1 {
   width: 100%;
   border-radius: 15px;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 footer {
   margin-top: 15px;
   font-size: 0.8rem;
   color: #6c757d;
+}
+
+.signature {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  font-weight: 500;
 }
