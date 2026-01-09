@@ -76,12 +76,6 @@ h1 {
   color: #3c096c;
 }
 
-.hero-image {
-  width: 100%;
-  border-radius: 15px;
-  margin-top: 20px;
-  object-fit: cover;
-}
 
 footer {
   margin-top: 15px;
